@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InspiroQuotes.com</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <h1 id="title" class="headings">InspiroQuotes</h1>
+    <h3 id="tagline" class="headings">Fuel your day with a new thought!!</h3>
+    <div class="quote-card">
+        <div class="quote-section">
+            <!-- <img src="right quotation marks.png" alt="right-quotation" class="quotation" id="right-quotation"> -->
+        <p id="quote" class="quote-text">Let's find something motivational...</p>
+        <p id="author" class="quote-text">By - XYZ...</p>
+        <!-- <img src="left quotation marks.png" alt="left-quotation" class="quotation" id="left-quotation"> -->
+        </div>
+        <div class="quote-button">
+            <button id="generate"><i class="fa-solid fa-rotate"></i> Generate New Quote</button>
+            <button id="share" class="action-btn"><i class="fa-solid fa-share"></i></button>
+            <button id="copy" class="action-btn"><i class="fa-regular fa-copy"></i></button>
+            <button id="fav" class="action-btn"><i class="fa-regular fa-heart"></i></button>
+             <!-- <input type="checkbox" name="fav" id="fav">
+             <label for="fav"><i class="fa-regular fa-heart"></i></label> -->
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

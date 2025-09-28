@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to bottom, #E6EEF2, #C9DDE4);
+    height: 100vh;
+    margin: 0;
+    font-family: "Playfair Display", serif;
+}
+.headings{
+    text-align: center;
+    margin-top: 15px;
+}
+#tagline{
+    font-style: italic;
+}
+.quote-card{
+    height: 400px;
+    width: 700px;
+    border-radius: 20px;
+    background-color: #FDF9F3;
+    margin:50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px rgba(44,122,123,0.2); 
+}
+.quote-text{
+    /* font-family: 'Merriweather', Georgia, serif;  */
+    font-size: 30px;
+    margin: 0 35px;
+}
+#quote{
+    margin-top: 15px;
+}
+#author{
+    font-style: italic;
+    font-family: "Playfair Display", serif;
+    font-size: 25px;
+    text-align: center;
+    line-height: 200px;
+}
+.quotation{
+    width: 30px;
+    height: 40px;
+}
+.quote-button{
+    position: relative;
+    bottom: 20px;
+    left: 15px;
+}
+#generate{
+    background-color: #2C7A7B;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 12px;
+    font-family: "Playfair Display", serif;
+    cursor: pointer;
+}
+.action-btn{
+    border: 2px solid #2C7A7B;
+    border-radius: 50%;
+    padding: 12px;  
+    margin: 0 5px;
+    background-color: #FDF9F3;
+    cursor: pointer;
+}
+#generate:hover{
+    background-color: #294c4c;
+}
+#fav{
+    border: none;
+    position: relative;
+    left: 325px;
+}
+#share:hover{
+    background-color: #2C7A7B;
+    color: white;
+}
+#copy:hover{
+    background-color: #2C7A7B;
+    color: white;
+}
